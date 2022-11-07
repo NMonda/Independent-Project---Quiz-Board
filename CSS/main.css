@@ -1,3 +1,8 @@
+header {
+	height: 100px;
+	line-height: 100px;
+	margin: 20px 150px 0 100px;
+}
 body{
      background-color: #87b22273	;
     font: 1rem/1.5 var(--bs-font-sans-serif); ;
@@ -11,6 +16,7 @@ h1{
 footer{
     text-align: center;
     background-color: #B22222;
+    font-weight: bold;
 }
 p{
     font-weight: bold;
