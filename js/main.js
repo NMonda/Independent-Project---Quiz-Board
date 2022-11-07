@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     scoreMessage.innerHTML += comments;
 
-    $("#kwisha").click(function () {
+    $("#kwisha").click(function (e) {
       $("#finalAnswer").removeClass("d-none");
     });
 });
