@@ -1,0 +1,18 @@
+body{
+     background-color: greenyellow;
+    font: 1rem/1.5 var(--bs-font-sans-serif); ;
+}
+h1{
+    font: 300;
+    color: brown;
+    text-align: center;
+    background-color:black;
+}
+footer{
+    text-align: center;
+    background-color: chocolate;
+}
+p{
+    font-weight: bold;
+    ;
+}
