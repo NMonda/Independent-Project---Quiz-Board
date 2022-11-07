@@ -27,8 +27,7 @@ $(document).ready(function () {
         comments += "Oops! You have scored " + percentageScore + "%";
     }
     scoreMessage.innerHTML += comments;
-
     $("#kwisha").click(function () {
-        $("#finalAnswer").removeClass("d-none");
+      $("#finalAnswer").removeClass("d-none");
     });
-})
+});

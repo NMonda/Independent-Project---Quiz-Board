@@ -19,11 +19,11 @@
 <div class="container">
     <p>Is Javascript used for styling? </p>
 
-    <input class="form-check-input " type="checkbox" name="ansDefault" id="ans_three_a" value="0">
+    <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_three_a" value="0">
 
     <label class="form-check-label" for="ans_three_a"> Yes</label> <br>
 
-    <input class="form-check-input" type="checkbox" name="ansDefault" id="ans_three_b" value="2">
+    <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_three_b" value="2">
 
     <label class="form-check-label" for="ans_three_b"> No </label> <br>
 
@@ -43,8 +43,9 @@
 
     <p>How many sides of headers are available on HTML by default?</p>
 
-            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_two_a" value="0" <label
-                class="form-check-label" for="ans_two_a">5 </label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_two_a" value="0">
+
+            <label class="form-check-label" for="ans_two_a">5 </label> <br>
 
             <input class="form-check-inputouranswers" type="checkbox" name="ansDefault" id="ans_two_b" value="0">
 
@@ -59,13 +60,13 @@
 
 </div>
 <div class="container text-center my-3" id="kwisha">
-    <button type="button" class="btn btn-outline-primary btn-lg" id="finished">SUBMIT</button>
+    <button type="button" class="btn-outline-primary" id="finished">SUBMIT</button>
 </div>
 <div class="container d-none" id="finalAnswer">
     <div class="card text-center outline-light mb-3">
-        <div class="card-body text-primary">
-            <h5 class="card-title outline-light"> Congratulations on taking the quiz</h5>
-            <p class="card-text" id="ukweli"></p>
+        <div class="card-body text-secondary">
+            <h5 class="card-title btn-outline-primary"> Here we go!</h5>
+           <p class="card-text" id="ukweli"></p>
         </div>
     </div>
 </div>
