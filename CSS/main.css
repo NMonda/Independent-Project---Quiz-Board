@@ -1,5 +1,5 @@
 body{
-     background-color: greenyellow;
+     background-color: #87b22273	;
     font: 1rem/1.5 var(--bs-font-sans-serif); ;
 }
 h1{
@@ -10,9 +10,13 @@ h1{
 }
 footer{
     text-align: center;
-    background-color: chocolate;
+    background-color: #B22222;
 }
 p{
     font-weight: bold;
-    ;
+    
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
 }
