@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     let percentageScore = (score / total) * 100;
     let comments = '';
-    if(percentageScore > 80) {
+    if(percentageScore >80) {
         comments += "Kudos! You have scored " + percentageScore + "%";
     }
     else if (percentageScore >= 50 && percentageScore <= 80) {
@@ -26,7 +26,6 @@ $(document).ready(function () {
     else {
         comments += "Oops! You have scored " + percentageScore + "%";
     }
-    //alert(score)
     scoreMessage.innerHTML += comments;
     $("#kwisha").click(function () {
       $("#finalAnswer").removeClass("d-none");
