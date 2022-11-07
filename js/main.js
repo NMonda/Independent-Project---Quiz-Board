@@ -26,6 +26,7 @@ $(document).ready(function () {
     else {
         comments += "Oops! You have scored " + percentageScore + "%";
     }
+    //alert(score)
     scoreMessage.innerHTML += comments;
     $("#kwisha").click(function () {
       $("#finalAnswer").removeClass("d-none");
