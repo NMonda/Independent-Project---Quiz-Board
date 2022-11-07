@@ -22,7 +22,7 @@ $(document).ready(function () {
     }
     
     else if (percentageScore >= 50 && percentageScore <= 80) {
-        comments += "Good! You have scored " + percentageScore + "%";
+        comments += "Great! You have great potential"  + percentageScore + "%";
     }
     else {
         comments += "Oops! You have scored " + percentageScore + "%";
