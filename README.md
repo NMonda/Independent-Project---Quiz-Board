@@ -25,7 +25,7 @@ Hide the questions area and display the results pane.
 
 ##  User Requirements.
 Answer the questions by selecting an answer for each question using the checkbox.
-And wait for a message to be displayed(score).
+then wait for a message to be displayed(score).
 
 ## Running/Installation instructions
 To run this project on your local machine, simply download it navigate to the folder and open the index.html file with any web browser(preferably chrome).
