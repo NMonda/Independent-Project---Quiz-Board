@@ -20,14 +20,18 @@ $(document).ready(function () {
     if(percentageScore >80) {
         comments += "Kudos! You have scored " + percentageScore + "%";
     }
+    
     else if (percentageScore >= 50 && percentageScore <= 80) {
         comments += "Good! You have scored " + percentageScore + "%";
     }
     else {
         comments += "Oops! You have scored " + percentageScore + "%";
     }
+
     scoreMessage.innerHTML += comments;
+
     $("#kwisha").click(function () {
       $("#finalAnswer").removeClass("d-none");
     });
 });
+
